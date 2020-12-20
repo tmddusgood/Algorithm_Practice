@@ -1,0 +1,16 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/dbnavigator.xml
+/misc.xml
+/modules.xml
+/vcs.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Java Module Setting
+../Java_Programming_Fundamentals.iml
+../Main.java
+../out
