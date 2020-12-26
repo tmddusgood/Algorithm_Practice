@@ -11,6 +11,4 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 # Java Module Setting
-../Java_Programming_Fundamentals.iml
-../Main.java
 ../out
