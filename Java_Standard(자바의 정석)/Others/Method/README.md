@@ -86,10 +86,4 @@ public class FunctionTest {
 
 - 메서드의 이름은 그 객체를 사용하는 객체(클라이언트)에 맞게 짓는것이 좋음
 
-   예) getStudentName() 
-
-  
-
-## 다음 강의 
-
-[04. 객체의 속성은 멤버 변수로, 객체의 기능은 메서드로 구현한다](https://gitlab.com/easyspubjava/javacoursework/-/blob/master/Chapter2/2-04/README.md)
+   예) getStudentName()
