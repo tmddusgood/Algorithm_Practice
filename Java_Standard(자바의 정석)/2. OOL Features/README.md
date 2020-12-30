@@ -38,6 +38,8 @@ public class Main {
     }
 }
 ```
+* main에서 접근할 수 있는 것은 Encoder 클래스이다.
+* encode() 함수에 접근할 수 있는 방법은 Encoder 클래스에 접근하는 것이다.
 ## C언어 vs JAVA
 * c언어의 경우 헤더파일을 통해 접근
 * Java는 클래스를 통해서 접근한다.
