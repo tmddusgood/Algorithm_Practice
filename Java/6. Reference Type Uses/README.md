@@ -99,3 +99,6 @@ public class StudentTest {
 ```
 
 ![subject](./img/subject.PNG)
+
+#Primitive Type vs Reference Type in Algorithm
+Algorithm 폴더의 Data Types 참조
