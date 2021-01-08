@@ -1,4 +1,4 @@
-# 05. 인스턴스 생성과 힙 메모리 (heap memory)
+# 인스턴스 생성과 힙 메모리 (heap memory)
 
 ## 인스턴스 (instance)
 
