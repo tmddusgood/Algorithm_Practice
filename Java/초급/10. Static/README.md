@@ -10,7 +10,7 @@
 
 - 회사에 사원이 입사할때 마다 새로운 사번이 필요하다.
 
-![static.png](./img/static.png)
+![static.png](img/static.png)
 
 ## static 변수 선언과 사용하기
 
@@ -77,11 +77,11 @@ public class EmployeeTest {
 	}
 }
 ```
-![employee1](./img/employee1.png)
+![employee1](img/employee1.png)
 
 
 - static 변수는 인스턴스에서 공통으로 사용하는 영역임음 알 수 있음
-  ![mem](./img/mem.png)
+  ![mem](img/mem.png)
 
 
 ## 회사원이 입사할 때마다 새로운 사번 부여하기
@@ -116,7 +116,7 @@ public class EmployeeTest {
 	}
 }
 ```
-![employee2](./img/employee2.png)
+![employee2](img/employee2.png)
 
 ## static 변수와 메서드는 인스턴스 변수, 메서드가 아니므로 클래스 이름으로 직접 참조
 
@@ -184,7 +184,7 @@ public class EmployeeTest2 {
 
 - 지역변수, 멤버 변수, 클래스 변수는 유효범위와 life cycle, 사용하는 메모리도 다름
 
-![variable](./img/variable.png)
+![variable](img/variable.png)
 
 - static 변수는 프로그램이 메모리에 있는 동안 계속 그 영역을 차지하므로 너무 큰 메모리를 할당하는 것은 좋지 않음
 
@@ -245,4 +245,4 @@ public class CompanyTest {
 }
 ```
 
-![singleton](./img/singleton.png)
+![singleton](img/singleton.png)

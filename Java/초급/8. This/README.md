@@ -14,7 +14,7 @@
 
 - 클래스 내에서 참조변수가 가지는 주소 값과 동일 한 주소 값을 가지는 키워드
 
-![this1](./img/this1.png)
+![this1](img/this1.png)
 
 ``` 
 public void setYear(int year)
@@ -80,5 +80,5 @@ public class Person {
 	}
 }
 ```
-![this2](./img/this2.PNG)
+![this2](img/this2.PNG)
 

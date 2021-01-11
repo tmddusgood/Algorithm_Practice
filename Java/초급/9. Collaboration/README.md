@@ -10,7 +10,7 @@
 
 - 객체 협력의 예
 
-![bus](./img/bus.PNG)
+![bus](img/bus.PNG)
 
 ## 버스와 지하철을 타는 예제 프로그래밍
 
@@ -119,4 +119,4 @@ public class TakeTransTest {
 
 }
 ```
-![trans](./img/trans.PNG)
+![trans](img/trans.PNG)

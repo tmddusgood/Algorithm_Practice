@@ -4,7 +4,7 @@
 
 - 변수의 자료형
 
-![datatype](./img/datatype.png)
+![datatype](img/datatype.png)
 
 - 클래스형으로 변수를 선언
 
@@ -20,7 +20,7 @@
 
 - 학생(Student)과 과목(Subject)에 대한 클래스를 분리하여 사용하고 Subject 클래스를 활용하여 수강한 과목들의 변수의 타입으로 선언
 
-![student](./img/student.png)
+![student](img/student.png)
 
 - 선언된 Subject 변수는 생성된 인스턴스가 아니므로, Student의 생성자에서 생성하여 사용
 
@@ -98,7 +98,7 @@ public class StudentTest {
 }
 ```
 
-![subject](./img/subject.PNG)
+![subject](img/subject.PNG)
 
 #Primitive Type vs Reference Type in Algorithm
 Algorithm 폴더의 Data Types 참조
