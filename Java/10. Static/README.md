@@ -193,3 +193,56 @@ public class EmployeeTest2 {
 - 멤버 변수가 너무 많으면 인스턴스 생성 시 쓸데없는 메모리가 할당됨
 
 - 상황에 적절하게 변수를 사용해야 함
+
+# static 응용 - 싱글톤 패턴(singleton pattern)
+
+## 싱글톤 패턴이란?
+
+- 프로그램에서 인스턴스가 단 한 개만 생성되어야 하는 경우 사용하는 디자인 패턴
+
+- static 변수, 메서드를 활용하여 구현 할 수 있음
+* 어떤 클래스가 최초 한번만 메모리를 할당하고(Static) 그 메모리에 객체를 만들어 사용하는 디자인 패턴
+- 즉 생성자의 호출이 반복적으로 이뤄져도 실제로 생성되는 객체는 최초 생성된 객체를 반환 해주는 것이다.
+
+## 싱글톤 패턴으로 회사 객체 구현하기
+
+- 생성자는 private으로 선언
+```
+private Company() {}
+```
+
+- 클래스 내부에 유일한 private 인스턴스 생성
+
+```
+private static Company instance = new Company();
+```
+
+- 외부에서 유일한 인스턴스를 참조할 수 있는 public 메서드 제공
+```
+public static Company getInstance() {
+		
+	if( instance == null) {
+		instance = new Company();
+	}
+	return instance;
+		
+}
+```
+CompanyTest.java
+```
+public class CompanyTest {
+
+	public static void main(String[] args) {
+		Company company1 = Company.getInstance();
+		
+		Company company2 = Company.getInstance();
+		
+		System.out.println(company1);
+		System.out.println(company2);
+		
+		//Calendar calendar = Calendar.getInstance();
+	}
+}
+```
+
+![singleton](./img/singleton.png)
