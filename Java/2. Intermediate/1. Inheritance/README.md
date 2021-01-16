@@ -289,11 +289,8 @@ public class CustomerTest {
 	}
 
 - 하위 클래스는 상위 클래스의 타입을 내포하고 있으므로 상위 클래스로의 묵시적 형 변환이 가능함
-
 - 상속 관계에서 모든 하위 클래스는 상위 클래스로 형 변환(업캐스팅)이 됨
 - 다운 캐스팅을 하려면 VIPCustomer vipcustomer = new (VIPCustomer)customer; 로 명시적 타입 변환을 해주어야 한다.
-- 다만 다운 캐스팅을 하고나면, 확장된 참조변수에는 값이 할당되어 있지 않을 수 있어서 새로 내가 값을 초기화 해주어야 할 필요성이 있을 수 있다,.
-
 
 ## 형 변환과 메모리
 
@@ -311,6 +308,6 @@ public class CustomerTest {
 
 - Human은 내부적으로 Promate와 mammal의 타입을 모두 내포하고 있음
 
-  Primate pHumman = new Humman();
+  Primate pHuman = new Human();
 
-  Mammal mHumman = new Humman();
+  Mammal mHuman = new Human();
