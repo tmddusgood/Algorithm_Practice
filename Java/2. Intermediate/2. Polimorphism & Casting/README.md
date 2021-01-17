@@ -183,7 +183,7 @@ public class CustomerTest {
 ```
 ![output](./img/output.png)
 
-# 08. 다운 캐스팅과 instanceof
+# 다운 캐스팅과 instanceof
 
 ## 다운 캐스팅(downcasting)
 
