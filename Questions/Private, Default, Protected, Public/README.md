@@ -49,7 +49,8 @@ public class SuperClass {
 }
 ~~~
 
-##SuperSubA
+## SuperSubA.java
+
 ~~~java
 package test.testTwo;
  
@@ -90,7 +91,8 @@ public class SuperSubA {
 }
 ~~~
 
-## SuperSubB.java
+##SuperSubB.java
+
 ~~~java
 package test.testOne;
 
