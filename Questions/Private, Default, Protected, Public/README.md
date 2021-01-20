@@ -82,7 +82,7 @@ public class SuperSubA {
         SuperClass at = new SuperClass();
         
         System.out.println(at.a);    // private     : 다른 클래스에서는 사용 불가
-        System.out.println(at.b);    // 생략        : 다른 패키지에서는 사용 불가
+        System.out.println(at.b);    // default       : 다른 패키지에서는 사용 불가
         System.out.println(at.c);    // protected : 다른패키지의 외부 클래스에서는 사용 불가
         System.out.println(at.d);    // public     : 모든 객체에서 접근 가능.
     
