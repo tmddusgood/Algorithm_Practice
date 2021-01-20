@@ -54,7 +54,7 @@ public class SuperClass {
 ~~~java
 package test.testTwo;
  
-import paskTest.paskOne.SuperClass;
+import test.testOne.SuperClass;
  
 /**
  * AccessTest 클래스를 상속받는 클래스
@@ -64,7 +64,7 @@ import paskTest.paskOne.SuperClass;
 class SubOne extends SuperClass{
     void subPrn(){
         System.out.println(a);    // private    : 다른 클래스에서는 사용 불가
-        System.out.println(b);    // 생략        : 다른 패키지에서는 사용 불가
+        System.out.println(b);    // default   : 다른 패키지에서는 사용 불가
         System.out.println(c);    // protected : 서브클래스에서는 public으로 사용됨으로 사용 가능.
         System.out.println(d);    // public    : 모든 객체에서 접근 가능
     }
@@ -97,7 +97,6 @@ public class SuperSubA {
 package test.testOne;
 
 /**
- * 같은 패키지에 있는 자식 클래스
  * @author tmddusgood
  *
  */
