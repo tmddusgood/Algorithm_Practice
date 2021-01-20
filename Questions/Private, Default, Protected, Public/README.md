@@ -91,7 +91,7 @@ public class SuperSubA {
 }
 ~~~
 
-##SuperSubB.java
+## SuperSubB.java
 
 ~~~java
 package test.testOne;
