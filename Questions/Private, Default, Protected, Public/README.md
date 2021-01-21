@@ -3,7 +3,7 @@
 | 접근 지정자 | 자신의 클래스 | 같은 패키지 | 자식 클래스 | 다른 패키지 |
 | -------- | --------- | ---------| -------- | -------- |
 | private | O | X | X | X |
-| default | O | O| X | X |
+| 생략 | O | O| X | X |
 | protected | O | O| O | X |
 | public | O | O| O | O |
 
@@ -64,7 +64,7 @@ import test.testOne.SuperClass;
 class SubOne extends SuperClass{
     void subPrn(){
         System.out.println(a);    // private    : 다른 클래스에서는 사용 불가
-        System.out.println(b);    // default   : 다른 패키지에서는 사용 불가
+        System.out.println(b);    // 생략   : 다른 패키지에서는 사용 불가
         System.out.println(c);    // protected : 서브클래스에서는 public으로 사용됨으로 사용 가능.
         System.out.println(d);    // public    : 모든 객체에서 접근 가능
     }
@@ -82,7 +82,7 @@ public class SuperSubA {
         SuperClass at = new SuperClass();
         
         System.out.println(at.a);    // private     : 다른 클래스에서는 사용 불가
-        System.out.println(at.b);    // default       : 다른 패키지에서는 사용 불가
+        System.out.println(at.b);    // 생략       : 다른 패키지에서는 사용 불가
         System.out.println(at.c);    // protected : 다른패키지의 외부 클래스에서는 사용 불가
         System.out.println(at.d);    // public     : 모든 객체에서 접근 가능.
     
