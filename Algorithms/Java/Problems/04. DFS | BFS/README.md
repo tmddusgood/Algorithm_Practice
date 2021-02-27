@@ -2,7 +2,7 @@
 
 ## 그래프 탐색
 
-![traversal](./img/traversal.png)
+![traversal](img/traversal.png)
 
 ### 그래프를 matrix로 표현하기
 
