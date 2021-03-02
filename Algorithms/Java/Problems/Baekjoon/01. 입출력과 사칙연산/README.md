@@ -232,3 +232,4 @@ public class Main {
     }
 }
 ~~~
+* StringTokenizer는 내가 구분자를 지정하지 않아도 /t/n/r/f를 사용하는 것을 알게 되었다..
