@@ -219,7 +219,7 @@ import java.util.StringTokenizer;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine(), " ");
+        StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine());
 
         int numA = Integer.parseInt(stringTokenizer.nextToken());
         int numB = Integer.parseInt(stringTokenizer.nextToken());
