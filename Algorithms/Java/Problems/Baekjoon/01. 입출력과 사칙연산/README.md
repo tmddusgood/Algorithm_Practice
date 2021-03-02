@@ -88,3 +88,26 @@ public class Main{
 * 뭔가 클린한 코드를 만들어보고 싶다 괜히 여기서
 * BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 은 버릇처럼 외워야 한다.
 * br.readline().split() 그리고 Integer.valueOf()도 마찬가지이다
+
+## 람다식을 괜히 한 번 써보았다
+~~~java
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class Main{
+    public interface StringConcat {
+        void returnResult(String s1, String s2);
+    }
+
+    public static void main(String[] args) throws IOException{
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine(), " ");
+        StringConcat concat1 = (s, v) -> System.out.println(Integer.valueOf(s) + Integer.valueOf(v));
+        concat1.returnResult(stringTokenizer.nextToken(), stringTokenizer.nextToken());
+    }
+}
+~~~
+* 람다식을 썼을 때의 장점보다는 단점이 부각되는 코드인 것 같다.
+* 가독성이 좋아보이는 것도 아니고, 이런 단순한 함수에 굳이 람다식을 쓸 필요는 없다고 생각한다.
+* 클린코드의 관점에서 람다식을 무조건 긍정적으로 볼 필요는 없을 것 같다
+* 물론 이 경우 알고리즘에서 클린코드의 관점으로 접근할 필요는 없는 것 같다.
