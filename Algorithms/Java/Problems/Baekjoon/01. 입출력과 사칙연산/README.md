@@ -88,4 +88,3 @@ public class Main{
 * 뭔가 클린한 코드를 만들어보고 싶다 괜히 여기서
 * BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 은 버릇처럼 외워야 한다.
 * br.readline().split() 그리고 Integer.valueOf()도 마찬가지이다
-
