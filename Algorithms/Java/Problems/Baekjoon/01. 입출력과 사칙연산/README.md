@@ -111,3 +111,23 @@ public class Main{
 * 가독성이 좋아보이는 것도 아니고, 이런 단순한 함수에 굳이 람다식을 쓸 필요는 없다고 생각한다.
 * 클린코드의 관점에서 람다식을 무조건 긍정적으로 볼 필요는 없을 것 같다
 * 물론 이 경우 알고리즘에서 클린코드의 관점으로 접근할 필요는 없는 것 같다.
+
+# 문제 6
+> 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+> 첫째 줄에 A-B를 출력한다.
+~~~java
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine(), " ");
+
+        int numA = Integer.parseInt(stringTokenizer.nextToken());
+        int numB = Integer.parseInt(stringTokenizer.nextToken());
+
+        System.out.println(numA - numB);
+    }
+}
+~~~
