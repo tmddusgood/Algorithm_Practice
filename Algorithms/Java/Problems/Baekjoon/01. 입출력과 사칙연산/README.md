@@ -176,3 +176,29 @@ public class Main {
 * 포인트는, (double) 형변환인데 float보다 double이 정확도가 높으니까 골랐다. 느린 건 비슷하게 느리다.
 * 이에 대한 내용은 [Number Data Types](../../../Intro/2.%20Number%20Data%20Types%20(int,%20long,%20double,%20float).md) 에서 다뤘다.
 * 출력값의 오차에 대한 부분 때문에 int를 생각없이 썼다가는 틀린다. 그래서 한 번 틀렸다.
+
+# 문제 9
+>두 자연수 A와 B가 주어진다. 이때, A+B, A-B, A*B, A/B(몫), A%B(나머지)를 출력하는 프로그램을 작성하시오.
+> 두 자연수 A와 B가 주어진다. (1 ≤ A, B ≤ 10,000)
+> 첫째 줄에 A+B, 둘째 줄에 A-B, 셋째 줄에 A*B, 넷째 줄에 A/B, 다섯째 줄에 A%B를 출력한다.
+
+~~~java
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine(), " ");
+
+        int numA = Integer.parseInt(stringTokenizer.nextToken());
+        int numB = Integer.parseInt(stringTokenizer.nextToken());
+
+        System.out.println(numA + numB);
+        System.out.println(numA - numB);
+        System.out.println(numA * numB);
+        System.out.println(numA / numB);
+        System.out.println(numA % numB);
+    }
+}
+~~~
