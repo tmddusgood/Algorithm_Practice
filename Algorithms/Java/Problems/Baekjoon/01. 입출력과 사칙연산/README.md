@@ -1,4 +1,4 @@
-#문제
+#문제 1
 > Hello World!를 출력하시오.
 
 #풀이
@@ -10,7 +10,7 @@ public class Main {
 }
 ~~~
 
-#문제
+#문제 2
 > 강한친구 대한육군 을 한 줄에 한 번씩 출력..한다?
 
 #풀이
@@ -23,7 +23,7 @@ public class Main {
 }
 ~~~
 
-#문제
+#문제 3
 ~~~
 /*
 > \    /\
@@ -48,3 +48,22 @@ public class Main {
 * []를 붙이면 문자 그대로 인식하는 경우가 있따
 * 다른 특수 문자의 경우 \\를 붙이거나 하는 식으로 해결한다.
 * 특수 문자를 입력하는 방식을 알게 되는 문제
+
+
+# 문제 4
+# 풀이
+~~~java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("|\\_/|");
+        System.out.println("|q p|   /}");
+        System.out.println("( 0 )\"\"\"\\");
+        System.out.println("|\"^\"`    |");
+        System.out.println("||_/=\\\\__|");
+    }
+}
+~~~
+* " 를 출력하고 싶으면 \\" 를 써야한다!
+
+# 문제 5
+
