@@ -66,4 +66,26 @@ public class Main {
 * " 를 출력하고 싶으면 \\" 를 써야한다!
 
 # 문제 5
+> 첫째 줄에 A와 B가 주어진다. (0 < A, B < 10)
+> 첫째 줄에 A+B를 출력한다.
+
+~~~java
+import java.io.*;
+
+public class Main{
+    public static void main(String[] args) throws IOException{
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+        String[] strArray = bufferedReader.readLine().split(" ");
+        System.out.println(Integer.valueOf(strArray[0]) + Integer.valueOf(strArray[1]));
+
+    }
+}
+~~~
+* split() 대신에 String Tokenizer를 쓰는 것이 성능에 더 유리하다
+* 람다를 써보고 싶다 여기서!
+* 지금은 그냥 프린트문에 위에서 선언할 애들을 때려박았다.
+* 뭔가 클린한 코드를 만들어보고 싶다 괜히 여기서
+* BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); 은 버릇처럼 외워야 한다.
+* br.readline().split() 그리고 Integer.valueOf()도 마찬가지이다
 
