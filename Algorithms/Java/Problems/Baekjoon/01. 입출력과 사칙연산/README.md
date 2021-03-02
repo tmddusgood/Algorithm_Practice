@@ -202,3 +202,33 @@ public class Main {
     }
 }
 ~~~
+
+#문제 10
+### 문제
+> (A+B)%C는 ((A%C) + (B%C))%C 와 같을까? <br>
+> (A×B)%C는 ((A%C) × (B%C))%C 와 같을까? <br>
+> 세 수 A, B, C가 주어졌을 때, 위의 네 가지 값을 구하는 프로그램을 작성하시오.
+### 입력
+* 첫째 줄에 A, B, C가 순서대로 주어진다. (2 ≤ A, B, C ≤ 10000) <br>
+### 출력
+* 첫째 줄에 (A+B)%C, 둘째 줄에 ((A%C) + (B%C))%C, 셋째 줄에 (A×B)%C, 넷째 줄에 ((A%C) × (B%C))%C를 출력한다.
+~~~java
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine(), " ");
+
+        int numA = Integer.parseInt(stringTokenizer.nextToken());
+        int numB = Integer.parseInt(stringTokenizer.nextToken());
+        int numC = Integer.parseInt(stringTokenizer.nextToken());
+        
+        System.out.println((numA + numB) % numC);
+        System.out.println(((numA % numC) + (numB % numC)) % numC);
+        System.out.println((numA * numB) % numC);
+        System.out.println(((numA % numC) * (numB % numC)) % numC);
+    }
+}
+~~~
