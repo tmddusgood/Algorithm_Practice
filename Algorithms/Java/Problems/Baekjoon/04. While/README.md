@@ -42,3 +42,34 @@ public class Main {
 * read는 int값을 반환한다라는 사실...! 그래서 쓰려면 받은 값에서 아스키코드를 빼게 한다거나 뭐 그래야 한다네. 몰랐다.
 * 만약 int계산을 하지 않는다면 string builder를 쓸 수 있을 거 같은데 쓰는 쪽으로 다시 바꿔보고 싶다.
 
+
+## 나의 풀이 2
+~~~java
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder stringBuilder = new StringBuilder();
+
+        while (true) {
+            StringTokenizer strTkr = new StringTokenizer(bufferedReader.readLine());
+
+            int numberA = Integer.parseInt(strTkr.nextToken());
+            int numberB = Integer.parseInt(strTkr.nextToken());
+
+            if (numberA == 0 && numberB == 0) {
+                break;
+
+            }
+            stringBuilder.append((numberA + numberB)).append('\n');
+        }
+        System.out.println(stringBuilder);
+    }
+}
+~~~
+* 이게 정말로 맞는 풀이이다.
+    * 원래 println의 위치는 잘못되었다. 입력받을 때마다 출력이 생긴다.
+    * stringbuilder에 append를 모두 다 완료하고 출력한다는 점을 생각하지 못했따.
+    * bufferedReader.readLine() 과 한 줄씩 입력받는 것에 대한 잘못된 생각이 있었다. (두번째 항목)
