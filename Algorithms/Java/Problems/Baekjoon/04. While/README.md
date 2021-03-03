@@ -107,4 +107,40 @@ public class Main {
   * stringTokenizer는 항상 와일문 안에서 생성되는가? 선어만 먼저하고 while문 조건 안으로 들어갈 수는 없을까?
   * 선언만 먼저하는 게 아니라 인스턴스를 밖에서 만들어버리면, 한줄만 입력받고 끝나나? 한줄단위로 받는건가?
   * 내가 뭔가 이해가 부족하다라는 걸 느낀다 어려운 부분은 아닌 것 같으면서도.
+  
+## 나의 풀이 2
+~~~java
+import java.io.*;
+import java.util.*;
 
+public class Main{
+    public static void main(String[] args) throws IOException{
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder stringBuilder = new StringBuilder();
+        StringTokenizer stringTokenizer;
+        String str = " ";
+
+        while( (str = bufferedReader.readLine()) != null){
+            stringTokenizer = new StringTokenizer(str);
+
+            int numberA = Integer.parseInt(stringTokenizer.nextToken());
+            int numberB = Integer.parseInt(stringTokenizer.nextToken());
+
+            stringBuilder.append(numberA + numberB).append("\n");
+        }
+
+        System.out.println(stringBuilder);
+    }
+}
+~~~
+* 이 문제는 정말 많은 걸 알려주는 문제다.
+* EOF를 받는 것과 엔터를 받는 것이 지대한 차이가 있음을 깨달았다
+* str = bufferedReader.readline() 하는 의미를 처음에는 알지 못했다
+  * 일단 bufferedReader.readline()을 만약 한 번 뒤에서 더 하게 된다면 그것은 null을 읽기 때문에 다음 while 조건에서 끝나야 하는 것을 먼저 발견해서 NPE를 유발한다.
+  * 또한 while 조건문 내에서 str = bufferdReader.readLine()을 수행하면서 그것이 null인지 아닌지를 검사할 수 있게 된다.
+  * 그리고 거기서 str이라는 것을 할당해 주었기 때문에, 뒤에서 str을 계속해서 새로 bufferedLine을 하지 않고 이용할 수 있게 된다는 점이 있다.
+  
+* EOF 를 처리하는 문제가 나온다면 이 문제는 나를 살린 셈이다.. 이걸 이제 알았다는 게 충격적이다.
+* ctrl+D가 EOF임을 잊지 말자.
+* 그리고 한 번에 모아서 보여주는 것이 문제가 원하는 것이므로, 매번 system.out.println을 할 필요가 없고
+* stringBuilder에 계속 append로 더해주다가 마지막에만 보여주면 되는 것
