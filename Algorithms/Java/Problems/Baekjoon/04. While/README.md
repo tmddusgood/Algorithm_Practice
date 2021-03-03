@@ -119,8 +119,8 @@ public class Main{
         StringBuilder stringBuilder = new StringBuilder();
         StringTokenizer stringTokenizer;
         String str = " ";
-        // buffer는 계속 살아있고, 입력을 받기 위해 열려있다.
-        // 다만 그것에 대해선 readLine이 실행될 때마다 읽어가는 것일 뿐이다.
+        // EOF를 받아서 입력 예외를 발생시키면
+        // 그 때까지 쌓인 값에 대해서 이제 while 문에 들어가서 검사하기 시작하는 것이다.
       
         while( (str = bufferedReader.readLine()) != null){
             stringTokenizer = new StringTokenizer(str);
@@ -136,10 +136,9 @@ public class Main{
 }
 ~~~
 * 이 문제는 정말 많은 걸 알려주는 문제다.
-* EOF를 받는 것과 엔터를 받는 것이 지대한 차이가 있음을 깨달았다
+* EOF를 받는 것과 엔터를 받는 것이 지대한 차이가 있음을 깨달았다.
 * str = bufferedReader.readline() 하는 의미를 처음에는 알지 못했다
-  * 일단 bufferedReader.readline()을 만약 한 번 뒤에서 더 하게 된다면 그것은 null을 읽기 때문에 다음 while 조건에서 끝나야 하는 것을 먼저 발견해서 NPE를 유발한다.
-  * 또한 while 조건문 내에서 str = bufferdReader.readLine()을 수행하면서 그것이 null인지 아닌지를 검사할 수 있게 된다.
+  * str을 초기화하지 않고 bufferedReader.readline()을 만약 한 번 뒤에서 더 하게 된다면 그것은 null을 읽기 때문에 다음 while 조건에서 끝나야 하는 것을 먼저 발견해서 NPE를 유발한다.
   * 그리고 거기서 str이라는 것을 할당해 주었기 때문에, 뒤에서 str을 계속해서 새로 bufferedLine을 하지 않고 이용할 수 있게 된다는 점이 있다.
   
 * EOF 를 처리하는 문제가 나온다면 이 문제는 나를 살린 셈이다.. 이걸 이제 알았다는 게 충격적이다.
