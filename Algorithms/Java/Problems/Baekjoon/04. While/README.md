@@ -119,7 +119,9 @@ public class Main{
         StringBuilder stringBuilder = new StringBuilder();
         StringTokenizer stringTokenizer;
         String str = " ";
-
+        // buffer는 계속 살아있고, 입력을 받기 위해 열려있다.
+        // 다만 그것에 대해선 readLine이 실행될 때마다 읽어가는 것일 뿐이다.
+      
         while( (str = bufferedReader.readLine()) != null){
             stringTokenizer = new StringTokenizer(str);
 
