@@ -72,4 +72,39 @@ public class Main {
 * 이게 정말로 맞는 풀이이다.
     * 원래 println의 위치는 잘못되었다. 입력받을 때마다 출력이 생긴다.
     * stringbuilder에 append를 모두 다 완료하고 출력한다는 점을 생각하지 못했따.
-    * bufferedReader.readLine() 과 한 줄씩 입력받는 것에 대한 잘못된 생각이 있었다. (두번째 항목)
+    * bufferedReader.readLine() 과 한 줄씩 입력받는 것에 대한 잘못된 생각이 있었다. (두번째 항문)
+    
+
+#[문제 10951](https://www.acmicpc.net/problem/10951)
+## 나의 풀이 1
+~~~java
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder stringBuilder = new StringBuilder();
+
+        while(true) {
+            StringTokenizer strTkr = new StringTokenizer(bufferedReader.readLine());
+
+            if (!strTkr.hasMoreTokens()) {
+                break;
+            }
+            else {
+                int numberA = Integer.parseInt(strTkr.nextToken());
+                int numberB = Integer.parseInt(strTkr.nextToken());
+                stringBuilder.append((numberA + numberB)).append('\n');
+            }
+        }
+        System.out.println(stringBuilder);
+    }
+}
+~~~
+* 뭔가 이것 이외에 더 좋은 풀이가 있을 것 같다
+* 지금 생각나는 것
+  * stringTokenizer는 항상 와일문 안에서 생성되는가? 선어만 먼저하고 while문 조건 안으로 들어갈 수는 없을까?
+  * 선언만 먼저하는 게 아니라 인스턴스를 밖에서 만들어버리면, 한줄만 입력받고 끝나나? 한줄단위로 받는건가?
+  * 내가 뭔가 이해가 부족하다라는 걸 느낀다 어려운 부분은 아닌 것 같으면서도.
+
