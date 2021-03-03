@@ -36,4 +36,24 @@ public class Main {
     * 예상컨대, 메모리를 더 차지하고 (Main에 static 클래스를 만들었으므로)
     * 시간도 더 걸리지 않을까 생각한다.
     * 그리고 + 를 통해서 하는 부분은 concat과 stringbuilder 그리고 + 의 차이를 알아야 할 것 같아서 <br>question에 추가를 해야겠다.
-    
+   
+## 문제 1 - 두번째 풀이 
+~~~java
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class Main {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer strTkr = new StringTokenizer(bufferedReader.readLine());
+
+        int number = Integer.parseInt(strTkr.nextToken());
+        for (int i = 1; i < 10; i ++){
+            System.out.println(number + " * " + i + " = " + number * i);
+        }
+    }
+}
+~~~
+* 의외로 메모리는 12kb 밖에 차이가 나지 않았다
+* 그리고 시간에 있어서도 큰 차이가 나지 않았다
+* 수십만 건에 대한 반복작업을 하는 것이 아니라면, 단 건이라면 모듈화를 시키는 것이 낫겠다는 생각을 한다.
