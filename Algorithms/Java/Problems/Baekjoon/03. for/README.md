@@ -97,5 +97,42 @@ public class Main {
   }
 }
 ~~~
-* 메인 함수 안에 들어가는 코드가 너무 많은 것 같다.
-* 이 정도는 그냥 메인함수에 쓰는 게 함수 호출 면에서 (예를 들면 테스트케이스가 100만개라면??) 불리할 수 있겠다.
+* 이 정도는 그냥 메인함수에 쓰는 게 함수 호출 면에서 (예를 들면 테스트케이스가 100만개라면??) 나을 수 있겠다.
+
+## 두번째 풀이
+~~~java
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder stringBuilder = new StringBuilder();
+        StringTokenizer stringTokenizer;
+
+        int caseCount = Integer.parseInt(bufferedReader.readLine());
+        for (int i = 0; i < caseCount; i++) {
+            stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+            int numA = Integer.parseInt(stringTokenizer.nextToken());
+            int numB = Integer.parseInt(stringTokenizer.nextToken());
+
+            stringBuilder
+                    .append("Case #")
+                    .append(i + 1)
+                    .append(": ")
+                    .append(numA)
+                    .append(" + ")
+                    .append(numB)
+                    .append(" = ")
+                    .append(numA + numB)
+                    .append("\n");
+        }
+
+        System.out.println(stringBuilder);
+    }
+}
+~~~
+* 실제로 메모리와 시간에서 미세하지만 차이가 있음을 알았다.
+* 데이터가 많아진다면 그것이 유효한 개발에서의 차이가 될 수 있겠다
+* 다만 클린 코드의 관점에서는 적절하지 않은 것 같다.
