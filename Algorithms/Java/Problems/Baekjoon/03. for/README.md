@@ -57,3 +57,45 @@ public class Main {
 * 의외로 메모리는 12kb 밖에 차이가 나지 않았다
 * 그리고 시간에 있어서도 큰 차이가 나지 않았다
 * 수십만 건에 대한 반복작업을 하는 것이 아니라면, 단 건이라면 모듈화를 시키는 것이 낫겠다는 생각을 한다.
+
+# [문제 11022](https://www.acmicpc.net/problem/11022)
+## 첫번째 풀이
+~~~java
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class Main {
+  public static StringBuilder buildString(int caseNumber, StringTokenizer stringTokenizer) {
+    StringBuilder stringBuilder = new StringBuilder();
+    int numA = Integer.parseInt(stringTokenizer.nextToken());
+    int numB = Integer.parseInt(stringTokenizer.nextToken());
+
+    return stringBuilder
+            .append("Case #")
+            .append(caseNumber)
+            .append(": ")
+            .append(numA)
+            .append(" + ")
+            .append(numB)
+            .append(" = ")
+            .append(numA + numB)
+            .append("\n");
+  }
+
+  public static void main(String[] args) throws IOException {
+    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+    StringBuilder stringBuilder = new StringBuilder();
+    StringTokenizer stringTokenizer;
+
+    int caseCount = Integer.parseInt(bufferedReader.readLine());
+    for (int i = 0; i < caseCount; i++) {
+      stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+      stringBuilder = stringBuilder.append(buildString(i + 1, stringTokenizer));
+    }
+
+    System.out.println(stringBuilder);
+  }
+}
+~~~
+* 메인 함수 안에 들어가는 코드가 너무 많은 것 같다.
+* 이 정도는 그냥 메인함수에 쓰는 게 함수 호출 면에서 (예를 들면 테스트케이스가 100만개라면??) 불리할 수 있겠다.
