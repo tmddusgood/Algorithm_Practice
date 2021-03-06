@@ -10,7 +10,7 @@
 
 - 움직 일 수 있는 방향의 예: ( 2,2 ) 위치에서 볼 수 있는 도달 가능 위치는  N(2,1), E(3,2), S(2,3), W(1,2) 
 
-![maze.png](./img/maze.png)
+![maze.png](img/maze.png)
 
 - 하나의 위치를 방문할때마다 stack에 위치를 저장한다. (push)
 
@@ -204,4 +204,4 @@ public class MazeTest {
 }
 ```
 
-![path](./img/path.png)
+![path](img/path.png)

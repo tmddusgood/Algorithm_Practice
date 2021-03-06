@@ -1,10 +1,10 @@
 # 07. 피보나치 수열 문제 여러 방식으로 해결하기
 
 
-![fibo1](./img/fibanacci.png)
+![fibo1](img/fibanacci.png)
 
 
-![fibo2](./img/fibo.png)
+![fibo2](img/fibo.png)
 
 
 
