@@ -1,5 +1,4 @@
-#[문제 2577](https://acmicpc.net/problem/2577)
-
+[문제 2577](https://acmicpc.net/problem/2577)
 ##첫번째 풀이
 ~~~java
 import java.io.IOException;
