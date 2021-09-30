@@ -1,5 +1,5 @@
 ---
-description: 순간은 영원하지 않고, 행복은 순간 속에 있다.
+description: Be happy, Always.
 ---
 <img src="Assets/Seungyeon_Kang.jpeg" width=50% height=50%/>
 <br>
@@ -11,6 +11,6 @@ description: 순간은 영원하지 않고, 행복은 순간 속에 있다.
 * Email: [tmddusgood.gmail.com](tmddusgood@gmail.com)
 
 ## :man\_technologist: Channel
-* Blog [Gitbook](https://seungyeon-kang.gitbook.io/yeons-log-frame)
-* Github [github.com/tmddusgood](https://github.com/tmddusgood)
+* Blog: [Gitbook](https://seungyeon-kang.gitbook.io/yeons-log-frame)
+* Github: [github.com/tmddusgood](https://github.com/tmddusgood)
 * Tech-Tree: [StackShare](https://stackshare.io/tmddusgood/my-stack)
