@@ -15,6 +15,9 @@
   * [Inheritance](Java/2.%20Intermediate/01.%20Inheritance/README.md)
   * [Polimorphism & Casting](Java/2.%20Intermediate/02.%20Polimorphism%20&%20Casting/README.md)
   * [Abstract Class](Java/2.%20Intermediate/03.%20Abstract%20Class/README.md)
+* [Algorithm Intro](README.md)
+  * [Primitive, Reference, Generic](Algorithm/Intro/1.%20Data%20Types%20(Primitive%20&%20Reference%20&%20Generic).md)
+  
 ## Question & Answer <a href="#q-and-a" id="q-and-a"></a>
 * [JAVA](Questions/README.md)
     * [문자열 처리](Questions/Concat%20vs%20Stringbuilder%20vs%20%22+%22/README.md)
