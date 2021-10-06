@@ -16,7 +16,7 @@
   * [Polimorphism & Casting](Java/2.%20Intermediate/02.%20Polimorphism%20&%20Casting/README.md)
   * [Abstract Class](Java/2.%20Intermediate/03.%20Abstract%20Class/README.md)
 * [Algorithm](Algorithm/README.md)
-  * [Intro]()
+  * [Intro](Algorithm/Intro/README.md)
     * [Primitive, Reference, Generic](Algorithm/Intro/1.%20Data%20Types%20(Primitive%20&%20Reference%20&%20Generic).md)
     * [Number Data Types](Algorithm/Intro/2.%20Number%20Data%20Types%20(int,%20long,%20double,%20float).md)
 ## Question & Answer <a href="#q-and-a" id="q-and-a"></a>
