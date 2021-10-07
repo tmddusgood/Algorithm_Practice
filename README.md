@@ -2,7 +2,6 @@
 description: Be happy, Always.
 ---
 <img src="Assets/Seungyeon_Kang.jpeg" width=50% height=50%/>
-<br>
 
 * 시간은 참 야속합니다. 조금이라도 붙잡고자 기록으로 남깁니다.
 * 사진 속 우리는 언제나 행복해보입니다. 찰나 속에 머물고 싶은 사람.
