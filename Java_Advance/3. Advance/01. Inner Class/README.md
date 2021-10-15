@@ -161,7 +161,7 @@ public class InnerTest {
 ```
 - 정적 내부 클래스 일반 메서드와 정적 메서드에서의 변수 사용
 
-![method](./img/method.png)
+![method](img/method.png)
 
 ## 지역 내부 클래스
 
@@ -226,7 +226,7 @@ public class LocalInnerTest {
 
 - widget의 이벤트 핸들러에 활용됨
 
-![android](./img/android.png)
+![android](img/android.png)
 
 - 익명 내부 클래스 예
 

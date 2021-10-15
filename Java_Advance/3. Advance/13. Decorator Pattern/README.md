@@ -14,7 +14,7 @@
 
 - decorator와 component는 동일한 것이 아님 ( 기반 스트림 클래스가 직접 읽고 쓸수 있음, 보조 스트림은 추가적인 기능 제공)
 
-![decorator](./img/decorator.png)
+![decorator](img/decorator.png)
 
 ## 커피를 만들어보아요~
 

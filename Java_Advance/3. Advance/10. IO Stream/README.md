@@ -8,7 +8,7 @@
 
 - 입출력이 구현되는 곳: 파일 디스크, 키보드, 마우스, 네트웍, 메모리 등 모든 자료가 입력되고 출력되는 곳
 
-![io](./img/io.png)
+![io](img/io.png)
 
 ## 입출력 스트림의 구분
 
@@ -24,7 +24,7 @@
 
 - 출력 스트림 : 대상으로 자료를 출력하는 스트림
 
-![iostream](./img/iostream.png)
+![iostream](img/iostream.png)
 
 - 스트림의 종류
 
@@ -39,7 +39,7 @@
 
 - 문자 단위 스트림 : 바이트 단위로 자료를 처리하면 문자는 깨짐, 인코딩에 맞게 2바이트 이상으로 처리하도록 구현된 스트림
 
-![byte](./img/byte.png)
+![byte](img/byte.png)
 
 - 스트림의 종류
 
@@ -56,7 +56,7 @@
 
 - 보조 스트림은 직접 읽고 쓰는 기능은 없으므로 항상 기반 스트림이나 또 다른 보조 스트림을 생성자의 매개 변수로 포함함
 
-![second](./img/second.png)
+![second](img/second.png)
 
 - 스트림의 종류
 
@@ -251,7 +251,7 @@ public class FileInputStreamTest3 {
 	}
 }
 ```
-![byte](./img/byte.png)
+![byte](img/byte.png)
 
 
 ## OutputStream

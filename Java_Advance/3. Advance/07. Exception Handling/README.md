@@ -34,17 +34,17 @@
 
 - 자바는 안전성이 중요한 언어로 대부분 프로그램에서 발생하는 오류에 대해 문법적으로 예외 처리를 해야함
 
-![error.png](./img/error.png)
+![error.png](img/error.png)
 
 ## 예외 클래스들
 
 - 모든 예외 클래스의 최상위 클래스는 Exception 클래스
 
-![exception1](./img/exception1.png)
+![exception1](img/exception1.png)
 
 - 자바에서는 다양한 예외들에 대해 그 처리를 위한 클래스가 제공되고 있음
 
-![exception2](./img/exception2.png)
+![exception2](img/exception2.png)
 
 - Arithmetic Exception :정수를 0 으로 나눈 경우 발생
 
@@ -73,7 +73,7 @@ Class.forName(“sis.studentinfo.Student”); //클래스가 로드되지 않은
 
 - try 블록에는 예외가 발생할 가능성이 있는 코드를 작성하고 try 블록 안에서 예외가 발생하믄 경우 catch 블록이 수행됨
 
-![try](./img/try.png)
+![try](img/try.png)
 
 - 프로그래머가 예외를 처리해줘야 하는 예 (배열의 오류 처리)
 ```
@@ -145,7 +145,7 @@ public class FileExceptionHandling {
 
 - 자바 9 부터 리소스는 try() 외부에서 선언하고 변수만을 try(obj) 와 같이 사용할 수 있음
 
-![auto](./img/auto.png)
+![auto](img/auto.png)
 
 - AutoCloseable인터페이스 구현 실습
 

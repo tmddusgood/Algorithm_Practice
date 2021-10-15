@@ -9,7 +9,7 @@
 - thread
   하나의 프로세스는 하나 이상의 thread를 가지게 되고, 실제 작업을 수행하는 단위는 thread임
 
-![thread](./img/thread.png)
+![thread](img/thread.png)
 
 
 ## multi-threading
@@ -26,7 +26,7 @@
 
 - critical section에 대한 동기화( 일종의 순차적 수행)를 구현하지 않으면 오류가 발생할 수 있음
 
-![critical](./img/critical.PNG)
+![critical](img/critical.PNG)
 
 
 ## 자바 Thread 만들기
@@ -101,7 +101,7 @@ public class ThreadTest2 {
 
 ## Thread Status
 
-![status](./img/status.png)
+![status](img/status.png)
 
 # Thread 클래스의 여러 메서드들
 
@@ -163,7 +163,7 @@ public class PriorityTest {
 
 - 다른 Thread의 수행이 끝나면 runnable 상태로 돌아옴
 
-![join](./img/join.png)
+![join](img/join.png)
 
 - 1부터 50, 51부터 100 까지의 합을 구하는 두 개의 Thread를 만들어 그 결과를 확인해보세요
 

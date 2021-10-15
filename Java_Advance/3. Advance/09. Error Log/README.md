@@ -28,7 +28,7 @@
 
 - 오픈소스로는 log4j를 많이 사용하고 있음
 
-![logger](./img/logger.png)
+![logger](img/logger.png)
 
 ## Logger 만들기
 
