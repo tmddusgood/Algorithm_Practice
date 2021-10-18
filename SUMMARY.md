@@ -2,7 +2,6 @@
 * [Intro](README.md)
 ## STUDY <a href="#study" id="study"></a>
 * [JAVA](Java/README.md)
-  * [Data Structure]()
   * [OOP](Java/1.%20Beginner/01.%20OOP/README.md)
   * [OOL Features](Java/1.%20Beginner/02.%20OOL%20Features/README.md)
   * [Class & Objects](Java/1.%20Beginner/03.%20Class%20&%20Object/README.md)
@@ -21,6 +20,8 @@
 * [JAVA_Advance](Java_Advance/README.md)
   * [Inner Class](Java_Advance/01.%20Inner%20Class/README.md)
   * [Lambda Expression](Java_Advance/02.%20Lambda%20Expression/README.md)
+* [Data Structure](Data%20Structure/README.md)
+  * [Intro](Data%20Structure/01.%20Intro/README.md)
 * [Algorithm](Algorithm/README.md)
   * [Intro](Algorithm/Intro/README.md)
     * [Primitive, Reference, Generic](Algorithm/Intro/1.%20Data%20Types%20(Primitive%20&%20Reference%20&%20Generic).md)
