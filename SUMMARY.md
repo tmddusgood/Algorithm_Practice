@@ -26,6 +26,7 @@
   * [Generic(2) T extends](Data%20Structure/03.%20T%20extends%20Class/README.md)
   * [Generic(3) Method](Data%20Structure/04.%20Generic%20Method/README.md)
   * [Collection Frameworks](Data%20Structure/05.%20Collection%20Frameworks/README.md)
+  * [List](Data%20Structure/06.%20List/README.md)
 * [Algorithm](Algorithm/README.md)
   * [Intro](Algorithm/Intro/README.md)
     * [Primitive, Reference, Generic](Algorithm/Intro/1.%20Data%20Types%20(Primitive%20&%20Reference%20&%20Generic).md)
