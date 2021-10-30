@@ -22,6 +22,7 @@
   * [Lambda Expression](Java_Advance/02.%20Lambda%20Expression/README.md)
   * [Functional Interface](Java_Advance/03.%20Functional%20Interface/README.md)
   * [OOP vs Lambda Expression](Java_Advance/04.%20OOP%20vs%20Lambda%20Expression/README.md)
+  * [Stream](Java_Advance/05.%20Stream/README.md)
 * [Data Structure](Data%20Structure/README.md)
   * [Intro](Data%20Structure/01.%20Intro/README.md)
   * [Generic(1)](Data%20Structure/02.%20Generic%20Intro/README.md)
