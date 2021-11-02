@@ -24,6 +24,7 @@
   * [OOP vs Lambda Expression](Java_Advance/04.%20OOP%20vs%20Lambda%20Expression/README.md)
   * [Stream](Java_Advance/05.%20Stream/README.md)
   * [Reduce()](Java_Advance/06.%20Reduce()/README.md)
+  * [Custom Exception](Java_Advance/07.%20Exception%20Handling)
 * [Data Structure](Data%20Structure/README.md)
   * [Intro](Data%20Structure/01.%20Intro/README.md)
   * [Generic(1)](Data%20Structure/02.%20Generic%20Intro/README.md)
@@ -40,6 +41,7 @@
     * [For-Each](Algorithm/Intro/3.%20For-Each.md)
     * [Array, Queue, ArrayDeque](Algorithm/Intro/4.%20Stack%20vs%20Queue%20vs%20ArrayDeque.md)
     * [Array vs ArrayList](Algorithm/Intro/5.%20Array%20vs%20ArrayList.md)
+    * 
     
 ## Question & Answer <a href="#q-and-a" id="q-and-a"></a>
 * [JAVA](Questions/README.md)
