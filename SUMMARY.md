@@ -26,6 +26,7 @@
   * [Reduce()](Java_Advance/06.%20Reduce()/README.md)
   * [Exception Handling](Java_Advance/07.%20Exception%20Handling)
   * [Custom Exception](Java_Advance/08.%20User%20Defined%20Exception%20Class)
+  * [Error Log](Java_Advance/09.%20Error%20Log)
 * [Data Structure](Data%20Structure/README.md)
   * [Intro](Data%20Structure/01.%20Intro/README.md)
   * [Generic(1)](Data%20Structure/02.%20Generic%20Intro/README.md)
