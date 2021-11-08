@@ -1,5 +1,6 @@
 # Table of contents
 * [Intro](README.md)
+
 ## STUDY <a href="#study" id="study"></a>
 * [JAVA](Java/README.md)
   * [OOP](Java/1.%20Beginner/01.%20OOP/README.md)
@@ -17,6 +18,7 @@
   * [Abstract Class](Java/2.%20Intermediate/03.%20Abstract%20Class/README.md)
   * [Interface](Java/2.%20Intermediate/04.%20Interface/README.md)
   * [Object Class](Java/2.%20Intermediate/05.%20Object%20Class/README.md)
+  
 * [JAVA_Advance](Java_Advance/README.md)
   * [Inner Class](Java_Advance/01.%20Inner%20Class/README.md)
   * [Lambda Expression](Java_Advance/02.%20Lambda%20Expression/README.md)
@@ -32,6 +34,7 @@
   * [File Class](Java_Advance/12.%20File%20Class/README.md)
   * [Decorator Pattern](Java_Advance/13.%20Decorator%20Pattern/README.md)
   * [Thread](Java_Advance/14.%20Thread/README.md)
+  
 * [Data Structure](Data%20Structure/README.md)
   * [Intro](Data%20Structure/01.%20Intro/README.md)
   * [Generic(1)](Data%20Structure/02.%20Generic%20Intro/README.md)
@@ -43,6 +46,7 @@
   * [Set](Data%20Structure/08.%20Set/README.md)
   * [Comparable & Comparator](Data%20Structure/09.%20Comparable%20&%20Comparator/README.md)
   * [Map](Data%20Structure/10.%20Map/README.md)
+  
 * [Algorithm](Algorithm/README.md)
   * [Intro](Algorithm/Intro/README.md)
     * [Primitive, Reference, Generic](Algorithm/Intro/1.%20Data%20Types%20(Primitive%20&%20Reference%20&%20Generic).md)
@@ -50,7 +54,6 @@
     * [For-Each](Algorithm/Intro/3.%20For-Each.md)
     * [Array, Queue, ArrayDeque](Algorithm/Intro/4.%20Stack%20vs%20Queue%20vs%20ArrayDeque.md)
     * [Array vs ArrayList](Algorithm/Intro/5.%20Array%20vs%20ArrayList.md)
-    * 
     
 ## Question & Answer <a href="#q-and-a" id="q-and-a"></a>
 * [JAVA](Questions/README.md)
