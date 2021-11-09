@@ -47,13 +47,17 @@
   * [Comparable & Comparator](Data%20Structure/09.%20Comparable%20&%20Comparator/README.md)
   * [Map](Data%20Structure/10.%20Map/README.md)
   
+* [Algorithm](Algorithm/Study/README.md)
+  * [Brute Force](Algorithm/Study/01.%20Brute%20Force/README.md)
+  
 * [Algorithm](Algorithm/README.md)
-  * [Intro](Algorithm/Intro/README.md)
+  * [Strategy](Algorithm/Intro/README.md)
     * [Primitive, Reference, Generic](Algorithm/Intro/1.%20Data%20Types%20(Primitive%20&%20Reference%20&%20Generic).md)
     * [Number Data Types](Algorithm/Intro/2.%20Number%20Data%20Types%20(int,%20long,%20double,%20float).md)
     * [For-Each](Algorithm/Intro/3.%20For-Each.md)
     * [Array, Queue, ArrayDeque](Algorithm/Intro/4.%20Stack%20vs%20Queue%20vs%20ArrayDeque.md)
     * [Array vs ArrayList](Algorithm/Intro/5.%20Array%20vs%20ArrayList.md)
+  * [](Algorithm/Study/01.%20Brute%20Force/)
     
 ## Question & Answer <a href="#q-and-a" id="q-and-a"></a>
 * [JAVA](Questions/README.md)
