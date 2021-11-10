@@ -49,6 +49,7 @@
   
 * [Algorithm](Algorithm/Study/README.md)
   * [Brute Force](Algorithm/Study/01.%20Brute%20Force/README.md)
+  * [Binary Search](Algorithm/Study/02.%20Binary%20Search/02.%20Binary%20Search.md)
   
 * [Algorithm](Algorithm/README.md)
   * [Strategy](Algorithm/Intro/README.md)
