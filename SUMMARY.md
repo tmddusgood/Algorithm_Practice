@@ -53,6 +53,7 @@
   * [Sort](Algorithm/Study/03.%20Sort/03.%20Insertion%20Sort,%20Bubble%20Sort,%20Selection%20Sort.md)
   * [DFS, BFS](Algorithm/Study/04.%20DFS%20%7C%20BFS/README.md)
   * [Graph](Algorithm/Study/05.%20Graph)
+  * [Greedy](Algorithm/Study/06.%20Greedy)
 
   
 * [Algorithm](Algorithm/README.md)
