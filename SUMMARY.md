@@ -1,7 +1,9 @@
 # Table of contents
 * [Intro](README.md)
 
-## STUDY <a href="#study" id="study"></a>
+## Project <a href="#project" id="project"></a>
+## Study <a href="#study" id="study"></a>
+## Basic <a href="#basic" id="basic"></a>
 * [JAVA](Java/README.md)
   * [OOP](Java/1.%20Beginner/01.%20OOP/README.md)
   * [OOL Features](Java/1.%20Beginner/02.%20OOL%20Features/README.md)
@@ -18,7 +20,6 @@
   * [Abstract Class](Java/2.%20Intermediate/03.%20Abstract%20Class/README.md)
   * [Interface](Java/2.%20Intermediate/04.%20Interface/README.md)
   * [Object Class](Java/2.%20Intermediate/05.%20Object%20Class/README.md)
-  
 * [JAVA_Advance](Java_Advance/README.md)
   * [Inner Class](Java_Advance/01.%20Inner%20Class/README.md)
   * [Lambda Expression](Java_Advance/02.%20Lambda%20Expression/README.md)
@@ -34,7 +35,6 @@
   * [File Class](Java_Advance/12.%20File%20Class/README.md)
   * [Decorator Pattern](Java_Advance/13.%20Decorator%20Pattern/README.md)
   * [Thread](Java_Advance/14.%20Thread/README.md)
-  
 * [Data Structure](Data%20Structure/README.md)
   * [Intro](Data%20Structure/01.%20Intro/README.md)
   * [Generic(1)](Data%20Structure/02.%20Generic%20Intro/README.md)
@@ -54,7 +54,7 @@
   * [Graph](Algorithm/Study/05.%20Graph/README.md)
   * [Greedy](Algorithm/Study/06.%20Greedy/README.md)
      
-## Others <a href="#q-and-a" id="q-and-a"></a>
+## Practice <a href="#q-and-a" id="q-and-a"></a>
 * [JAVA](Questions/README.md)
     * [문자열 처리](Questions/Concat%20vs%20Stringbuilder%20vs%20%22+%22/README.md)
     * [접근 지정자](Questions/Private,%20Default,%20Protected,%20Public/README.md)
