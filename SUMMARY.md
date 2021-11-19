@@ -46,16 +46,20 @@
   * [Set](Data%20Structure/08.%20Set/README.md)
   * [Comparable & Comparator](Data%20Structure/09.%20Comparable%20&%20Comparator/README.md)
   * [Map](Data%20Structure/10.%20Map/README.md)
-  
 * [Algorithm](Algorithm/Study/README.md)
   * [Brute Force](Algorithm/Study/01.%20Brute%20Force/README.md)
   * [Binary Search](Algorithm/Study/02.%20Binary%20Search/02.%20Binary%20Search.md)
   * [Sort](Algorithm/Study/03.%20Sort/03.%20Insertion%20Sort,%20Bubble%20Sort,%20Selection%20Sort.md)
   * [DFS, BFS](Algorithm/Study/04.%20DFS%20%7C%20BFS/README.md)
-  * [Graph](Algorithm/Study/05.%20Graph)
-  * [Greedy](Algorithm/Study/06.%20Greedy)
-
-  
+  * [Graph](Algorithm/Study/05.%20Graph/README.md)
+  * [Greedy](Algorithm/Study/06.%20Greedy/README.md)
+     
+## Others <a href="#q-and-a" id="q-and-a"></a>
+* [JAVA](Questions/README.md)
+    * [문자열 처리](Questions/Concat%20vs%20Stringbuilder%20vs%20%22+%22/README.md)
+    * [접근 지정자](Questions/Private,%20Default,%20Protected,%20Public/README.md)
+    * [싱글톤 vs Static](Questions/Singleton%20vs%20Static%20Class/README.md)
+    * [Vector vs ArrayList](Questions/Vector%20vs%20ArrayList/README.md)
 * [Algorithm](Algorithm/README.md)
   * [Strategy](Algorithm/Intro/README.md)
     * [Primitive, Reference, Generic](Algorithm/Intro/1.%20Data%20Types%20(Primitive%20&%20Reference%20&%20Generic).md)
@@ -63,11 +67,3 @@
     * [For-Each](Algorithm/Intro/3.%20For-Each.md)
     * [Array, Queue, ArrayDeque](Algorithm/Intro/4.%20Stack%20vs%20Queue%20vs%20ArrayDeque.md)
     * [Array vs ArrayList](Algorithm/Intro/5.%20Array%20vs%20ArrayList.md)
-  * [](Algorithm/Study/01.%20Brute%20Force/)
-    
-## Question & Answer <a href="#q-and-a" id="q-and-a"></a>
-* [JAVA](Questions/README.md)
-    * [문자열 처리](Questions/Concat%20vs%20Stringbuilder%20vs%20%22+%22/README.md)
-    * [접근 지정자](Questions/Private,%20Default,%20Protected,%20Public/README.md)
-    * [싱글톤 vs Static](Questions/Singleton%20vs%20Static%20Class/README.md)
-    * [Vector vs ArrayList](Questions/Vector%20vs%20ArrayList/README.md)
