@@ -4,8 +4,8 @@
 ## Project <a href="#project" id="project"></a>
 * 
 ## Study <a href="#study" id="study"></a>
-* [JAVA](study/java/README.md)
-  * [JVM](study/java/jvm.md)
+* [JAVA](Study/java/README.md)
+  * [JVM](Study/java/jvm.md)
 
 ## Basic <a href="#basic" id="basic"></a>
 * [JAVA](Java/README.md)
