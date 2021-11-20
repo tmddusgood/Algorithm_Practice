@@ -18,14 +18,6 @@ description: 'String, StringBuffer, StringBuilder 차이를 알아보자'
 String은 final 클래스로 선언되어 있으며 클래스내의 문자열도 final로 선언된것을 확인할 수 있다. 이는 String 인스턴스를 immutable 하다는 것을 알 수 있다.
 
 ```java
-/**
- * Strings are objects which represent immutable arrays of characters.
- *
- * @author OTI
- * @version initial
- *
- * @see StringBuffer
- */
 public final class String implements Serializable, Comparable<String>, CharSequence
 {
 	...
@@ -151,14 +143,6 @@ public final class StringBuilder extends AbstractStringBuilder implements Serial
 StringBuffer의 경우에는 append 메소드에 synchronized 를 붙여주어 해당 로직에 lock을 걸어 동기화를 보장하였다. synchronized 키워드는 가장 안전하게 쓰레드 동기화를 보장해주지만 lock을 거는 만큼 성능상 이슈가 없는지 고려해보아야 한다.
 
 ```java
-/**
- * Adds the character array to the end of this StringBuffer.
- *
- * @param		chars	the character array
- * @return		this StringBuffer
- *
- * @exception	NullPointerException when chars is null
- */
 public synchronized StringBuffer append (char[] chars) {
 	int currentLength = lengthInternalUnsynchronized();
 	int currentCapacity = capacityInternal();
@@ -170,7 +154,4 @@ public synchronized StringBuffer append (char[] chars) {
 ## 참고
 
 * [http://www.javadecompilers.com/](http://www.javadecompilers.com/)
-* [https://gist.github.com/benelog/b81b4434fb8f2220cd0e900be1634753](https://gist.github.com/benelog/b81b4434fb8f2220cd0e900be1634753)
-* [https://siyoon210.tistory.com/160](https://siyoon210.tistory.com/160)
-* [https://coding-factory.tistory.com/546](https://coding-factory.tistory.com/546)
 
