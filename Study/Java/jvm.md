@@ -84,7 +84,7 @@ Java 8 이후부터는 PermGen 영역이 Metaspace 영역으로 변경되면서 
 
 #### GC 동작 원리 \(Pararrel GC 기준\)
 
-![](../../.gitbook/assets/gc.png)
+![](../../.gitbook/assets/Java/jvm/gc.png)
 
 1. 힙 메모리 영역은 young generation\(eden, survivor1, survivor2\) , old generation, permanent generation 으로 나누어 진다.
 2. 데이터는 young generation\(eden → survivor1 → survivor2\) → old generation 순으로 데이터가 참조되는 기준으로 옮겨진다.
