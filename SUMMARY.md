@@ -2,7 +2,11 @@
 * [Intro](README.md)
 
 ## Project <a href="#project" id="project"></a>
+* 
 ## Study <a href="#study" id="study"></a>
+* [JAVA](study/java/README.md)
+  * [JVM](study/java/jvm.md)
+
 ## Basic <a href="#basic" id="basic"></a>
 * [JAVA](Java/README.md)
   * [OOP](Java/1.%20Beginner/01.%20OOP/README.md)
@@ -54,7 +58,7 @@
   * [Graph](Algorithm/Study/05.%20Graph/README.md)
   * [Greedy](Algorithm/Study/06.%20Greedy/README.md)
      
-## Practice <a href="#q-and-a" id="q-and-a"></a>
+## Practice <a href="#study" id="study"></a>
 * [JAVA](Questions/README.md)
     * [문자열 처리](Questions/Concat%20vs%20Stringbuilder%20vs%20%22+%22/README.md)
     * [접근 지정자](Questions/Private,%20Default,%20Protected,%20Public/README.md)
