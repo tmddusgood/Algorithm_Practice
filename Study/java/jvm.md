@@ -6,7 +6,7 @@ description: JVM에 대해 알아보자
 
 ## JVM, JDK, JRE
 
-![](../../.gitbook/assets/jdk-jvm.png)
+![](../../.gitbook/Assets/jdk-jvm.png)
 
 * JRE : 자바 실행 환경의 줄임말로 JVM에 자바 라이브러리와 기타 파일들이 결합된 자바를 실행하기 위한 프로그램
 * JDK : 자바 개발 키트의 줄임말로 JRE에 컴파일러, 디버거 등 개발도구를 포함하는 프로그램
@@ -14,7 +14,7 @@ description: JVM에 대해 알아보자
 
 ## JVM 구성
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/Assets/jvmruntimedata.png)
 
 ### class loader
 
@@ -84,7 +84,7 @@ Java 8 이후부터는 PermGen 영역이 Metaspace 영역으로 변경되면서 
 
 #### GC 동작 원리 \(Pararrel GC 기준\)
 
-![](../../.gitbook/assets/22296f3c58ff0ca120.jpg)
+![](../../.gitbook/assets/gc.png)
 
 1. 힙 메모리 영역은 young generation\(eden, survivor1, survivor2\) , old generation, permanent generation 으로 나누어 진다.
 2. 데이터는 young generation\(eden → survivor1 → survivor2\) → old generation 순으로 데이터가 참조되는 기준으로 옮겨진다.
@@ -96,9 +96,6 @@ Java 8 이후부터는 PermGen 영역이 Metaspace 영역으로 변경되면서 
 * [https://velog.io/@litien/JVM-구조](https://velog.io/@litien/JVM-%EA%B5%AC%EC%A1%B0)
 * [https://12bme.tistory.com/57](https://12bme.tistory.com/57)
 * [https://asfirstalways.tistory.com/158](https://asfirstalways.tistory.com/158)
-* [https://medium.com/@js230023/자바-jvm과-바이트-코드-4e754ee02490](https://medium.com/@js230023/%EC%9E%90%EB%B0%94-jvm%EA%B3%BC-%EB%B0%94%EC%9D%B4%ED%8A%B8-%EC%BD%94%EB%93%9C-4e754ee02490)
-* [https://yongyi1587.tistory.com/12](https://yongyi1587.tistory.com/12)
-* [https://mia-dahae.tistory.com/101](https://mia-dahae.tistory.com/101)
 * [https://johngrib.github.io/wiki/java8-why-permgen-removed/](https://johngrib.github.io/wiki/java8-why-permgen-removed/)
 * [https://javainterviewgoal.blogspot.com/2019/07/what-is-jdk-jre-and-jvm.html](https://javainterviewgoal.blogspot.com/2019/07/what-is-jdk-jre-and-jvm.html)
 * [https://www.programcreek.com/2013/04/jvm-run-time-data-areas/](https://www.programcreek.com/2013/04/jvm-run-time-data-areas/)
