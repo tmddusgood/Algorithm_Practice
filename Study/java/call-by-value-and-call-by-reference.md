@@ -112,18 +112,18 @@ public class CallByReference {
     }
 
     private void test() {
-        Person incheol = new Person("incheol");
+        Person yeon = new Person("yeon");
         Person andrew = new Person("andrew");
 
-        System.out.println("swap() 호출 전 : incheol = " + incheol + ", andrew = " + andrew);
-        swap(incheol, andrew);
-        System.out.println("swap() 호출 후 : incheol = " + incheol + ", andrew = " + andrew);
+        System.out.println("swap() 호출 전 : yeon = " + yeon + ", andrew = " + andrew);
+        swap(yeon, andrew);
+        System.out.println("swap() 호출 후 : yeon = " + yeon + ", andrew = " + andrew);
     }
 }
 
 // 결과값
-// swap() 호출 전 : incheol = Person{name='incheol'}, andrew = Person{name='andrew'}
-// swap() 호출 후 : incheol = Person{name='incheol'}, andrew = Person{name='andrew'}
+// swap() 호출 전 : yeon = Person{name='yeon'}, andrew = Person{name='andrew'}
+// swap() 호출 후 : yeon = Person{name='yeon'}, andrew = Person{name='andrew'}
 ```
 
 > 이번에도 값은 변하지 않았다.
@@ -134,11 +134,11 @@ public class CallByReference {
 
 #### 과정을 살펴보자
 
-* incheol, andrew 라는 Person 인스턴스를 각각 생성하였다.
-* swap 함수를 실행하여 incheol, andrew를 넘겨주었다.
-* Person x, y이라는 변수가 생성되고 값은 Heap 메모리에 있는 new Person\("incheol"\), new Person\("andrew"\)가 할당되었다.
+* yeon, andrew 라는 Person 인스턴스를 각각 생성하였다.
+* swap 함수를 실행하여 yeon, andrew를 넘겨주었다.
+* Person x, y이라는 변수가 생성되고 값은 Heap 메모리에 있는 new Person\("yeon"\), new Person\("andrew"\)가 할당되었다.
 * x,y를 변환하였다.
-* 결론은 새로운 변수인 x,y값을 변환하였기 때문에 test 함수의 incheol, andrew 에는 영향이 없는 것이다.
+* 결론은 새로운 변수인 x,y값을 변환하였기 때문에 test 함수의 yeon, andrew 에는 영향이 없는 것이다.
 
 비 원시 타입\(Wrapper class type\)의 변수를 메소드에 넘겨주어도 결국 객체의 값을 복사하기 때문에 call by Value라고 볼 수 있다.
 
@@ -173,18 +173,18 @@ public class CallByReference {
     }
 
     private void test() {
-        Person incheol = new Person("incheol");
+        Person yeon = new Person("yeon");
         Person andrew = new Person("andrew");
 
-        System.out.println("swap() 호출 전 : incheol = " + incheol + ", andrew = " + andrew);
-        swap(incheol, andrew);
-        System.out.println("swap() 호출 후 : incheol = " + incheol + ", andrew = " + andrew);
+        System.out.println("swap() 호출 전 : yeon = " + yeon + ", andrew = " + andrew);
+        swap(yeon, andrew);
+        System.out.println("swap() 호출 후 : yeon = " + yeon + ", andrew = " + andrew);
     }
 }
 
 // 결과값
-// swap() 호출 전 : incheol = Person{name='incheol'}, andrew = Person{name='andrew'}
-// swap() 호출 후 : incheol = Person{name='andrew'}, andrew = Person{name='incheol'}
+// swap() 호출 전 : yeon = Person{name='yeon'}, andrew = Person{name='andrew'}
+// swap() 호출 후 : yeon = Person{name='andrew'}, andrew = Person{name='yeon'}
 ```
 
 > 이번에는 우리가 의도한 결과대로 값이 변경되었다.

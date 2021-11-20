@@ -125,7 +125,7 @@ public class StaticTest {
     private static String name = "";
 
     static{
-        name = "incheol";
+        name = "yeon";
         System.out.println("static block!!!!");
     }
 

@@ -48,7 +48,7 @@ public class GenericClass<T> {
 ```java
 public static void main(String[] args) {
     GenericClass<String> stringGenericClass = new GenericClass<>();
-    stringGenericClass.setT("incheol");
+    stringGenericClass.setT("yeon");
     System.out.println(stringGenericClass.getT());
 
     GenericClass<Integer> integerGenericClass = new GenericClass<>();
@@ -69,7 +69,7 @@ class StringGeneric implements GenericInterface<String> {
 
     @Override
     public String get() {
-        return "incheol";
+        return "yeon";
     }
 }
 
@@ -108,7 +108,7 @@ public class GenericMethodClass {
 ```java
 public static void main(String[] args) {
     GenericMethodClass genericMethodClass = new GenericMethodClass();
-    System.out.println(genericMethodClass.<String>showGenericData("incheol"));
+    System.out.println(genericMethodClass.<String>showGenericData("yeon"));
     System.out.println(genericMethodClass.<Integer>showGenericData2(1000));
 }
 ```
@@ -143,7 +143,7 @@ public class GenericEntry<K,V>{
 
 public static void main(String[] args) {
     GenericEntry<String, Integer> genericEntry = new GenericEntry<>();
-    genericEntry.setKey("incheol");
+    genericEntry.setKey("yeon");
     genericEntry.setValue(1000);
 }
 ```
@@ -203,7 +203,7 @@ public class WildCardClass {
 
     public static void main(String[] args) {
         ArrayList items = new ArrayList();
-        items.add("incheol");
+        items.add("yeon");
         items.add(10);
 
         WildCardClass.print(items);
@@ -211,7 +211,7 @@ public class WildCardClass {
 }
 
 // result
-// incheol
+// yeon
 // 10
 ```
 

@@ -329,8 +329,8 @@ public class Accumulator {
 
 ## 참조
 
-* [https://incheol-jung.gitbook.io/docs/study/java-8-in-action/2020-03-10-java8inaction-chap7](https://incheol-jung.gitbook.io/docs/study/java-8-in-action/2020-03-10-java8inaction-chap7)
-* [https://incheol-jung.gitbook.io/docs/study/functional-programming-in-java-8/untitled-2](https://incheol-jung.gitbook.io/docs/study/functional-programming-in-java-8/untitled-2)
+* [https://yeon-jung.gitbook.io/docs/study/java-8-in-action/2020-03-10-java8inaction-chap7](https://yeon-jung.gitbook.io/docs/study/java-8-in-action/2020-03-10-java8inaction-chap7)
+* [https://yeon-jung.gitbook.io/docs/study/functional-programming-in-java-8/untitled-2](https://yeon-jung.gitbook.io/docs/study/functional-programming-in-java-8/untitled-2)
 * [https://futurecreator.github.io/2018/08/26/java-8-streams/](https://futurecreator.github.io/2018/08/26/java-8-streams/)
 * [https://effectivesquid.tistory.com/entry/Java-Stream이란](https://effectivesquid.tistory.com/entry/Java-Stream%EC%9D%B4%EB%9E%80)
 

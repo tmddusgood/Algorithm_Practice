@@ -117,7 +117,7 @@ Optional은 **선택형값을 캡슐화하는 클래스다.** 값이 있으면 O
   return Optional.ofNullable(address)
                    .filter(a -> a.getStreet().contains("seoul"))
                    .map(Address::getStreet)
-                   .orElse("incheol");
+                   .orElse("yeon");
   ```
 
 * map
@@ -129,7 +129,7 @@ Optional은 **선택형값을 캡슐화하는 클래스다.** 값이 있으면 O
                    .map(City::getAddress)
                    .map(Address::getZipcode)
                    .map(Zipcode::getCode)
-                   .orElse("incheol");
+                   .orElse("yeon");
   ```
 
 * flatMap
@@ -141,7 +141,7 @@ Optional은 **선택형값을 캡슐화하는 클래스다.** 값이 있으면 O
                    .flatMap(City::getAddress)
                    .flatMap(Address::getZipcode)
                    .flatMap(Zipcode::getCode)
-                   .orElse("incheol");
+                   .orElse("yeon");
   ```
 
 ## Optional 종단처리
@@ -293,5 +293,5 @@ Optional을 사용하면 여러가지 상황에서 발생할 수 있는 NPE를 �
 
 * [http://homoefficio.github.io/2019/10/03/Java-Optional-바르게-쓰기/](http://homoefficio.github.io/2019/10/03/Java-Optional-%EB%B0%94%EB%A5%B4%EA%B2%8C-%EC%93%B0%EA%B8%B0/)
 * [https://jdm.kr/blog/234](https://jdm.kr/blog/234)
-* [https://incheol-jung.gitbook.io/docs/study/backend/java-8-in-action/2020-03-10-java8inaction-chap10](https://incheol-jung.gitbook.io/docs/study/backend/java-8-in-action/2020-03-10-java8inaction-chap10)
+* [https://yeon-jung.gitbook.io/docs/study/backend/java-8-in-action/2020-03-10-java8inaction-chap10](https://yeon-jung.gitbook.io/docs/study/backend/java-8-in-action/2020-03-10-java8inaction-chap10)
 

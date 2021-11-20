@@ -167,7 +167,7 @@ public class PersonController {
 
     @ModelAttribute
     public void addAttributes(Model model) {
-        model.addAttribute("msg", "Welcome to the Incheol Blog!!!!!");
+        model.addAttribute("msg", "Welcome to the yeon Blog!!!!!");
     }
 
     @GetMapping("register")
@@ -211,7 +211,7 @@ msg 변수 값이 셋팅되어 있는 것을 확인할 수 있다. 이처럼 mod
 
 ```java
 /**
- * @author Incheol Jung
+ * @author yeon Jung
  */
 @RestControllerAdvice
 public class ControllerSupport {
