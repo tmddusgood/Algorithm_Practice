@@ -6,7 +6,7 @@ description: JVM에 대해 알아보자
 
 ## JVM, JDK, JRE
 
-![](../../.gitbook/Assets/jdk-jvm.png)
+![](../../.gitbook/Assets/Java/jvm/jdk-jvm.png)
 
 * JRE : 자바 실행 환경의 줄임말로 JVM에 자바 라이브러리와 기타 파일들이 결합된 자바를 실행하기 위한 프로그램
 * JDK : 자바 개발 키트의 줄임말로 JRE에 컴파일러, 디버거 등 개발도구를 포함하는 프로그램
@@ -14,7 +14,7 @@ description: JVM에 대해 알아보자
 
 ## JVM 구성
 
-![](../../.gitbook/Assets/jvmruntimedata.png)
+![](../../.gitbook/Assets/Java/jvm/jvmruntimedata.png)
 
 ### class loader
 
@@ -84,7 +84,7 @@ Java 8 이후부터는 PermGen 영역이 Metaspace 영역으로 변경되면서 
 
 #### GC 동작 원리 \(Pararrel GC 기준\)
 
-![](../../.gitbook/assets/gc.png)
+![](../../.gitbook/Assets/gc.png)
 
 1. 힙 메모리 영역은 young generation\(eden, survivor1, survivor2\) , old generation, permanent generation 으로 나누어 진다.
 2. 데이터는 young generation\(eden → survivor1 → survivor2\) → old generation 순으로 데이터가 참조되는 기준으로 옮겨진다.
