@@ -15,6 +15,8 @@
     * [블럭킹 | 논블럭킹 | 동기 | 비동기](study/java/or-or-or.md)
     * [ENUM](study/java/enum.md)
     * [STATIC](study/java/static.md)
+    * [Thread(쓰레드)](study/java/thread.md)
+    * [hashCode()와 equals()](study/java/hashcode-equals.md)
 
 
 ## Basic <a href="#basic" id="basic"></a>
