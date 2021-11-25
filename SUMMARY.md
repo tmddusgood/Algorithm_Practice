@@ -11,12 +11,12 @@
 * [JAVA](Study/java/README.md)
     * [JVM](Study/java/jvm.md)
     * [String, StringBuffer, StringBuilder](Study/java/string-stringbuffer-stringbuilder.md)
-    * [스택 오버 플로우(SOF)](Study/java/stw.md)
-    * [블럭킹 | 논블럭킹 | 동기 | 비동기](study/java/or-or-or.md)
-    * [ENUM](study/java/enum.md)
-    * [STATIC](study/java/static.md)
-    * [Thread(쓰레드)](study/java/thread.md)
-    * [hashCode()와 equals()](study/java/hashcode-equals.md)
+    * [SOF](Study/java/stw.md)
+    * [Blockcing/NonBlocking](study/java/or-or-or.md)
+    * [Enum](study/java/enum.md)
+    * [Static](study/java/static.md)
+    * [Thread](study/java/thread.md)
+    * [hashCode() | equals()](study/java/hashcode-equals.md)
 
 
 ## Basic <a href="#basic" id="basic"></a>
