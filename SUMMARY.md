@@ -24,6 +24,7 @@
     * [Exception](study/java/exception.md)
     * [Garbage Collecter](study/java/garbage-collecter.md)
     * [Collection](study/java/collection.md)
+    * [Call by Value & Call by Reference](study/java/call-by-value-and-call-by-reference.md)
 
 
 ## Basic <a href="#basic" id="basic"></a>
