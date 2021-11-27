@@ -23,6 +23,7 @@
     * [Lambda & Closure](study/java/undefined.md)
     * [Exception](study/java/exception.md)
     * [Garbage Collecter](study/java/garbage-collecter.md)
+    * [Collection](study/java/collection.md)
 
 
 ## Basic <a href="#basic" id="basic"></a>
