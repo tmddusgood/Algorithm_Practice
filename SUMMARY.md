@@ -17,6 +17,8 @@
     * [Static](study/java/static.md)
     * [Thread](study/java/thread.md)
     * [hashCode() | equals()](study/java/hashcode-equals.md)
+    * [JDK8](study/java/jdk-8.md)
+    * [Stream](study/java/stream.md)
 
 
 ## Basic <a href="#basic" id="basic"></a>
