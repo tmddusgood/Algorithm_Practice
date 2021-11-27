@@ -19,6 +19,8 @@
     * [hashCode() | equals()](study/java/hashcode-equals.md)
     * [JDK8](study/java/jdk-8.md)
     * [Stream](study/java/stream.md)
+    * [Optional](study/java/optional.md)
+    * [Lambda & Closure](study/java/undefined.md)
 
 
 ## Basic <a href="#basic" id="basic"></a>
