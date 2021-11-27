@@ -21,7 +21,7 @@
     * [Stream](study/java/stream.md)
     * [Optional](study/java/optional.md)
     * [Lambda & Closure](study/java/undefined.md)
-
+    * [Exception](study/java/exception.md)
 
 ## Basic <a href="#basic" id="basic"></a>
 
