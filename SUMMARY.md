@@ -1,38 +1,33 @@
 # Table of contents
-
 * [Intro](README.md)
 
 ## Project <a href="#project" id="project"></a>
-
 *
 
 ## Study <a href="#study" id="study"></a>
-
 * [JAVA](Study/java/README.md)
     * [JVM](Study/java/jvm.md)
     * [String, StringBuffer, StringBuilder](Study/java/string-stringbuffer-stringbuilder.md)
     * [SOF](Study/java/stw.md)
-    * [Blockcing/NonBlocking](study/java/or-or-or.md)
-    * [Enum](study/java/enum.md)
-    * [Static](study/java/static.md)
-    * [Thread](study/java/thread.md)
-    * [hashCode() | equals()](study/java/hashcode-equals.md)
-    * [JDK8](study/java/jdk-8.md)
-    * [Stream](study/java/stream.md)
-    * [Optional](study/java/optional.md)
-    * [Lambda & Closure](study/java/undefined.md)
-    * [Exception](study/java/exception.md)
-    * [Garbage Collecter](study/java/garbage-collecter.md)
-    * [Collection](study/java/collection.md)
-    * [Call by Value & Call by Reference](study/java/call-by-value-and-call-by-reference.md)
-    * [Generic](study/java/generic.md)
-* [SPRING](study/spring/README.md)
-    * [Spring Feature](study/spring/spring-1.md)
-    * [N+1](study/spring/n+1.md)
-
+    * [Blockcing/NonBlocking](Study/java/or-or-or.md)
+    * [Enum](Study/java/enum.md)
+    * [Static](Study/java/static.md)
+    * [Thread](Study/java/thread.md)
+    * [hashCode() | equals()](Study/java/hashcode-equals.md)
+    * [JDK8](Study/java/jdk-8.md)
+    * [Stream](Study/java/stream.md)
+    * [Optional](Study/java/optional.md)
+    * [Lambda & Closure](Study/java/undefined.md)
+    * [Exception](Study/java/exception.md)
+    * [Garbage Collecter](Study/java/garbage-collecter.md)
+    * [Collection](Study/java/collection.md)
+    * [Call by Value & Call by Reference](Study/java/call-by-value-and-call-by-reference.md)
+    * [Generic](Study/java/generic.md)
+* [SPRING](Study/spring/README.md)
+    * [Spring Feature](Study/spring/spring-1.md)
+    * [N+1](Study/spring/n+1.md)
 
 ## Basic <a href="#basic" id="basic"></a>
-
 * [JAVA](Java/README.md)
     * [OOP](Java/1.%20Beginner/01.%20OOP/README.md)
     * [OOL Features](Java/1.%20Beginner/02.%20OOL%20Features/README.md)
