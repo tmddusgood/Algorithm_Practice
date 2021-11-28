@@ -28,6 +28,7 @@
     * [Generic](study/java/generic.md)
 * [SPRING](study/spring/README.md)
     * [Spring Feature](study/spring/spring-1.md)
+    * [N+1](study/spring/n+1.md)
 
 
 ## Basic <a href="#basic" id="basic"></a>
