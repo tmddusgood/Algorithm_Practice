@@ -5,7 +5,7 @@
 *
 
 ## Study <a href="#study" id="study"></a>
-* [JAVA](Study/java/README.md)
+* [Java](Study/java/README.md)
     * [JVM](Study/java/jvm.md)
     * [String, StringBuffer, StringBuilder](Study/java/string-stringbuffer-stringbuilder.md)
     * [SOF](Study/java/stw.md)
@@ -23,18 +23,20 @@
     * [Collection](Study/java/collection.md)
     * [Call by Value & Call by Reference](Study/java/call-by-value-and-call-by-reference.md)
     * [Generic](Study/java/generic.md)
-* [SPRING](Study/spring/README.md)
+* [Spring](Study/spring/README.md)
     * [Spring Feature](Study/spring/spring-1.md)
     * [N+1](Study/spring/n+1.md)
     * [OSIV](Study/spring/osiv.md)
     * [@Valid](Study/spring/valid.md)
     * [Spring Boot Feature](Study/spring/spring-boot.md)
     * [Spring 5 Feature](Study/spring/spring-5.md)
+    * [JPA vs MyBatis](Study/spring/jpa-vs-mybatis.md)
+
 
 
 
 ## Basic <a href="#basic" id="basic"></a>
-* [JAVA](Java/README.md)
+* [Java](Java/README.md)
     * [OOP](Java/1.%20Beginner/01.%20OOP/README.md)
     * [OOL Features](Java/1.%20Beginner/02.%20OOL%20Features/README.md)
     * [Class & Objects](Java/1.%20Beginner/03.%20Class%20&%20Object/README.md)
@@ -50,7 +52,7 @@
     * [Abstract Class](Java/2.%20Intermediate/03.%20Abstract%20Class/README.md)
     * [Interface](Java/2.%20Intermediate/04.%20Interface/README.md)
     * [Object Class](Java/2.%20Intermediate/05.%20Object%20Class/README.md)
-* [JAVA_Advance](Java_Advance/README.md)
+* [Java_Advance](Java_Advance/README.md)
     * [Inner Class](Java_Advance/01.%20Inner%20Class/README.md)
     * [Lambda Expression](Java_Advance/02.%20Lambda%20Expression/README.md)
     * [Functional Interface](Java_Advance/03.%20Functional%20Interface/README.md)
@@ -86,7 +88,7 @@
 
 ## Practice <a href="#study" id="study"></a>
 
-* [JAVA](Questions/README.md)
+* [Java](Questions/README.md)
     * [문자열 처리](Questions/Concat%20vs%20Stringbuilder%20vs%20%22+%22/README.md)
     * [접근 지정자](Questions/Private,%20Default,%20Protected,%20Public/README.md)
     * [싱글톤 vs Static](Questions/Singleton%20vs%20Static%20Class/README.md)
