@@ -40,9 +40,7 @@
     * [@EnableWebMvc](Study/spring/enablewebmvc.md)
     * [Stereo Type](Study/spring/stereo-type.md)
     * [AOP](Study/spring/aop.md)
-
-
-
+    * [JPA Repository](Study/spring/jpa-repository.md)
 
 ## Basic <a href="#basic" id="basic"></a>
 * [Java](Java/README.md)
