@@ -37,6 +37,8 @@
     * [@Controlleradvice, @ExceptionHandler](Study/spring/controlleradvice-exceptionhandler.md)
     * [Spring Security](Study/spring/spring-security.md)
     * [Dispatcher Servlet](Study/spring/spring-web-mvc.md)
+    * [@EnableWebMvc](Study/spring/enablewebmvc.md)
+    * [Stereo Type](Study/spring/stereo-type.md)
 
 
 
