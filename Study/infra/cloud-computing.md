@@ -23,8 +23,6 @@ description: 클라우드 컴퓨팅에 대해서 알아보자
 
 ### 그럼에도 클라우드 컴퓨팅을 사용하지 않는 이유는 무엇일까?
 
-> 다음의 의견은 블로그를 참조한 개인적인 견해이다.
-
 * 기업의 모든 리소스를 외부 클라우드에서 관리되면서 내부 기밀이 외부로 노출된다는 불편한 시선이 있을 수 있다. (이는 프라이빗 클라우드로 해결할 수 있다.)
 * 클라우드 서비스 자체에 대한 불신이 있을 수 있다.
 * 클라우드 환경 또한 운영에 필요한 다양한 설정이 필요한데, 이 또한 새로운 기술 습득에 대한 부담이 될 수 있다.
@@ -133,13 +131,4 @@ FaaS(Function as a Service) FaaS를 사용하면 확장, 서버 또는 컨테이
 
 ## 참고
 
-* [https://ryufree.tistory.com/175](https://ryufree.tistory.com/175)
-* [https://blog.naver.com/gunghab01/220961865562](https://blog.naver.com/gunghab01/220961865562)
-* [https://www.stevenjlee.net/2020/06/10/이해하기-클라우드-컴퓨팅-cloud-computing-클라우드-서비스-cloud-servi/](https://www.stevenjlee.net/2020/06/10/%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%BB%B4%ED%93%A8%ED%8C%85-cloud-computing-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EC%84%9C%EB%B9%84%EC%8A%A4-cloud-servi/)
-* [http://wiki.hash.kr/index.php/온프레미스](http://wiki.hash.kr/index.php/%EC%98%A8%ED%94%84%EB%A0%88%EB%AF%B8%EC%8A%A4)
-* [https://biz.chosun.com/site/data/html\_dir/2019/04/03/2019040302058.html](https://biz.chosun.com/site/data/html\_dir/2019/04/03/2019040302058.html)
-* [https://aws.amazon.com/ko/what-is-cloud-computing/](https://aws.amazon.com/ko/what-is-cloud-computing/)
-* [https://azure.microsoft.com/ko-kr/overview/what-is-cloud-computing/#benefits](https://azure.microsoft.com/ko-kr/overview/what-is-cloud-computing/#benefits)
-* [https://www.redhat.com/ko/topics/cloud-computing/iaas-vs-paas-vs-saas](https://www.redhat.com/ko/topics/cloud-computing/iaas-vs-paas-vs-saas)
-* [https://www.alibabacloud.com/ko/knowledge/what-is-private-cloud](https://www.alibabacloud.com/ko/knowledge/what-is-private-cloud)
-* [http://www.itworld.co.kr/news/144224](http://www.itworld.co.kr/news/144224)
+* [스프링 마이크로서비스 코딩 공작소](http://www.yes24.com/Product/Goods/67473377)
