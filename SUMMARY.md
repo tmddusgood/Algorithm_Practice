@@ -42,9 +42,10 @@
     * [AOP](Study/spring/aop.md)
     * [JPA Repository](Study/spring/jpa-repository.md)
 * [Infrastructure](Study/infra/README.md)
-  * [Cloud](Study/infra/cloud-computing.md)
-  * [Git](Study/infra/2018-01-07-github.md)
-  * [Docker](Study/infra/2018-01-16-nodejs-14st.md)
+  * [Git](Study/infra/git.md)
+  * [Docker](Study/infra/docker.md)
+  * [Jenkins](Study/infra/jenkins.md)
+  * [Cloud Computing](Study/infra/cloud-computing.md)
 
 ## Basic <a href="#basic" id="basic"></a>
 * [Java](Java/README.md)
