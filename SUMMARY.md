@@ -46,6 +46,8 @@
   * [Docker](Study/infra/docker.md)
   * [Jenkins](Study/infra/jenkins.md)
   * [Cloud Computing](Study/infra/cloud-computing.md)
+  * [DNS](Study/infra/dns.md)
+
 
 ## Basic <a href="#basic" id="basic"></a>
 * [Java](Java/README.md)
