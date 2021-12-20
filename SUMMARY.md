@@ -46,12 +46,12 @@
     * [JPA Repository](Study/spring/jpa-repository.md)
 * [Infrastructure](Study/infra/README.md)
     * [Git](Study/infra/git.md)
+    * [DNS](Study/infra/dns.md)
     * [JWT](Study/infra/jwt.md)
     * [DevOps](Study/infra/devops.md)
     * [Docker](Study/infra/docker.md)
     * [Jenkins](Study/infra/jenkins.md)
     * [Cloud Computing](Study/infra/cloud-computing.md)
-    * [DNS](Study/infra/dns.md)
     * [MSA](Study/infra/msa.md)
 
 ## Basic <a href="#basic" id="basic"></a>
