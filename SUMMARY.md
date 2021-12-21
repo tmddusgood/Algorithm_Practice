@@ -55,6 +55,7 @@
     * [MSA](Study/infra/msa.md)
 * [Clean Code](Study/clean-code/README.md)
     * [깨끗한 코드](Study/clean-code/Chapter%2001/README.md)
+    * [의미있는 이름](Study/clean-code/Chapter%2002/README.md)
 
 ## Basic <a href="#basic" id="basic"></a>
 
