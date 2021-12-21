@@ -1,2 +1,0 @@
-# REDIS와 MEMCACHED\(TODO\)
-
