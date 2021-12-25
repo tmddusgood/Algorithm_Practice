@@ -57,6 +57,7 @@
     * [깨끗한 코드](Study/clean-code/Chapter%2001/README.md)
     * [의미있는 이름](Study/clean-code/Chapter%2002/README.md)
     * [함수](Study/clean-code/Chapter%2003/README.md)
+    * [주석](Study/clean-code/Chapter%2003/README.md)
 
 ## Basic <a href="#basic" id="basic"></a>
 
