@@ -59,6 +59,7 @@
     * [함수](Study/clean-code/Chapter%2003/README.md)
     * [주석](Study/clean-code/Chapter%2004/README.md)
     * [형식 맞추기](Study/clean-code/Chapter%2005/README.md)
+    * [객체와 자료구조](Study/clean-code/Chapter%2006/README.md)
 
 ## Basic <a href="#basic" id="basic"></a>
 
