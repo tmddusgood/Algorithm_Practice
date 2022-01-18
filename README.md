@@ -1,5 +1,5 @@
 ---
-description: Be happy, Always.
+description: 모르는 것을 알고, 알기 위해 행동하자. 행복하게!
 ---
 <img src=".gitbook/assets/Seungyeon_Kang.jpeg" width=50% height=50%/>
 
