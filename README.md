@@ -1,5 +1,5 @@
 ---
-description: 모르는 것을 알고, 알기 위해 행동하자. 행복하게!
+description: 행동하는 사람이라면, 모르는 것을 아는 것이 어줍잖은 지식보다 낫다.
 ---
 <img src=".gitbook/assets/Seungyeon_Kang.jpeg" width=50% height=50%/>
 
