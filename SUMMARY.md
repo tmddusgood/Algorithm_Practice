@@ -3,11 +3,10 @@
 * [Intro](README.md)
 
 ## Project <a href="#project" id="project"></a>
-* [미소웨더 개발기록](Project/Misoweather/README.md)
-    * [기획](Project/Misoweather/01. usecase.md)
+* [미소웨더 개발기록](Experience/Misoweather/README.md)
+    * [기획](Experience/Misoweather/01. usecase.md)
 
 ## Study <a href="#study" id="study"></a>
-
 * [Java](Study/java/README.md)
     * [JVM](Study/java/jvm.md)
     * [String, StringBuffer, StringBuilder](Study/java/string-stringbuffer-stringbuilder.md)
