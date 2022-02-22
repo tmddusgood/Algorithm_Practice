@@ -3,8 +3,8 @@
 * [Intro](README.md)
 
 ## Project <a href="#project" id="project"></a>
-
-*
+* [미소웨더 개발기록](Project/Misoweather/README.md)
+    * [기획](Project/Misoweather/01.usecase.md)
 
 ## Study <a href="#study" id="study"></a>
 
