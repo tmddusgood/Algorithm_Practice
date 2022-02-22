@@ -1,10 +1,10 @@
 # Table of contents
-
 * [Intro](README.md)
 
 ## Project <a href="#project" id="project"></a>
-* [미소웨더 개발기록](Experience/Misoweather/README.md)
-    * [기획](Experience/Misoweather/01. usecase.md)
+* [미소웨더](Experience/Misoweather/README.md)
+  * [기획 - 아이디어 및 유스케이스 정리](Experience/Misoweather/01.%20usecase.md)
+  * [DB 설계 - JPA 활용 중심](Experience/Misoweather/02.%20databse.md)
 
 ## Study <a href="#study" id="study"></a>
 * [Java](Study/java/README.md)
