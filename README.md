@@ -1,5 +1,5 @@
 ---
-description: 영원한 것이 없어 슬프고, 기쁩니다. 사실 슬픈 마음이 더 커요.
+description: 순간이기에 행복할 수 있음을 알지만, 그래도 마음은 먹먹합니다.
 ---
 
 <img src=".gitbook/assets/Seungyeon_Kang.jpeg" width=50% height=50%/>
