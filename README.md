@@ -1,6 +1,7 @@
 ---
-description: 영원한 것도, 찰나인 것도 없지 않습니까.
+description: 영원한 것이 없어 슬프고, 또 기쁩니다.
 ---
+
 <img src=".gitbook/assets/Seungyeon_Kang.jpeg" width=50% height=50%/>
 
 * 시간은 참 야속합니다. 조금이라도 붙잡고자 기록으로 남깁니다.
