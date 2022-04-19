@@ -1,5 +1,5 @@
 ---
-description: 영원한 것이 없어 슬프고, 또 기쁩니다.
+description: 영원한 것이 없어 슬프고, 기쁩니다. 사실 슬픈 마음이 좀 더 큽니다.
 ---
 
 <img src=".gitbook/assets/Seungyeon_Kang.jpeg" width=50% height=50%/>
