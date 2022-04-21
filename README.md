@@ -1,5 +1,5 @@
 ---
-description: 순간도 영원도 없지 않습니까. 모두 아는 것이지만.
+description: 영원한 것도, 찰나인 것도 없지 않습니까.
 ---
 <img src=".gitbook/assets/Seungyeon_Kang.jpeg" width=50% height=50%/>
 
