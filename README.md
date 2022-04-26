@@ -1,5 +1,5 @@
 ---
-description: 순간이기에 행복할 수 있음을 알지만, 그래도 마음은 먹먹합니다.
+description: 찰나의 순간이 영원의 추억으로
 ---
 
 <img src=".gitbook/assets/Seungyeon_Kang.jpeg" width=50% height=50%/>
