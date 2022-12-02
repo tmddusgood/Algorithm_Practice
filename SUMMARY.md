@@ -109,13 +109,6 @@
     * [Set](Data%20Structure/08.%20Set/README.md)
     * [Comparable & Comparator](Data%20Structure/09.%20Comparable%20&%20Comparator/README.md)
     * [Map](Data%20Structure/10.%20Map/README.md)
-* [Algorithm](Algorithm/Study/README.md)
-    * [Brute Force](Algorithm/Study/01.%20Brute%20Force/README.md)
-    * [Binary Search](Algorithm/Study/02.%20Binary%20Search/02.%20Binary%20Search.md)
-    * [Sort](Algorithm/Study/03.%20Sort/03.%20Insertion%20Sort,%20Bubble%20Sort,%20Selection%20Sort.md)
-    * [DFS, BFS](Algorithm/Study/04.%20DFS%20%7C%20BFS/README.md)
-    * [Graph](Algorithm/Study/05.%20Graph/README.md)
-    * [Greedy](Algorithm/Study/06.%20Greedy/README.md)
 
 ## Practice <a href="#study" id="study"></a>
 
